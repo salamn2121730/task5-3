@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    /* font-size: 1.25rem; */
+}
+p{
+    color: gray;
+}
+/* nav{
+    height: 50px;
+} */
+.image{
+    width: 20px;
+}
+.imgcollection{
+    width: 200px;
+}
+.red{color: red;}
+.flag{
+    max-height: 100px;
+    width: 10px;
+    overflow: scroll;
+}
+.dropflag{
+padding: 70px;
+
+}
+.drop{
+    display: flex;
+
+}
+
+.drop ul{
+    list-style: none;
+
+}
+
+.drop li:first-child a{
+    font-weight: bold;
+}
+
+.text-hero {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    align-content: center !important;
+    height: 100% !important;
+}
+.text2-hero{
+    display: flex !important;
+    align-items: start !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    align-content: center !important;
+    height: 100% !important; 
+    color: black;
+}
+.ch{
+    font-size: 3rem;
+}
+.cp{
+    font-size: 4rem;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+a:hover{
+    color: red;
+}
+.arrivals{
+    padding: 30px;
+}
+.cardarrivals{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid gray;
+    width: 230px; 
+}
+.imgarrival{
+    width:100%;
+    height: 75%;
+   
+}
+.img-center-innov{
+    width: 80%;
+}
+.image-innov{
+    transition: transform 0.5s ease;
+}
+.image-innov:hover{
+    transform: scale(1.2);
+}
+.customer{
+    padding: 30px;
+    background-image: url('./images/footer_ad0f20f1-29b5-4188-8127-a6667ac6aea9.webp');
+}
+.accordion-button ,.accordion-body{
+    color: white;
+    background-color: black;
+}
+.img-customer{
+    width: 80%;
+}
+
+footer{
+    padding: 30px;
+    height: 500px;
+    
+    background-image: url('./images/footer_ad0f20f1-29b5-4188-8127-a6667ac6aea9.webp');
+    
+    color: white;
+}
+footer a{
+    color: white;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.end{
+flex-wrap: wrap;
+    gap: 20px;
+}
+#input{
+    border-radius: 20%;
+}
+@media screen and ( max-width:992px){
+    .drop{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .order1{
+        order:1;
+    }
+    .order2{
+        order:2;
+    }
+    .order3{
+        order:3;
+    }
+    .ch{
+        font-size: 0.75rem;
+    }
+    .cp{
+        font-size: 1.5rem;
+    }
+}
+@media screen and ( max-width:500px){
+    .ch{
+        font-size: 0.5rem;
+    }
+    .cp{
+        font-size: 1rem;
+    } 
+}
